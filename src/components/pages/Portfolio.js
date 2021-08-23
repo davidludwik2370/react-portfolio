@@ -1,4 +1,5 @@
 import React from 'react';
+import './pageAssetts/css/style.css';
 
 export default function Blog() {
   return (
