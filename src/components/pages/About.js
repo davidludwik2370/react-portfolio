@@ -4,7 +4,6 @@ export default function About() {
   return (
     <div>
       <section>
-    <div class="label">About Me</div>
     <div>
       <div>
         My name is David Ludwik and I am a junior full stack software developer and soon to be graduate of the Georgia Tech full stack web 

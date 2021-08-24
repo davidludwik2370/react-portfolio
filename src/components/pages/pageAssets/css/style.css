@@ -8,19 +8,26 @@
   font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
-a, a:hover, a:focus, a:active {
+a, a:hover, a:focus, a:active, .pageLink {
   text-decoration: none;
-  color: inherit;
+  color: var(--teal);
 }
 
-header {
-  font-size: 30px;
-  background-color: var(--charcoal);
-}
 
-header .nav {
+nav {
   padding: 20px;
   padding-left: 0px;
+  font-size: 30px;
+  background-color: var(--charcoal);
+  display: flex;
+  justify-content: space-between;
+}
+
+nav > ul > li{
+  justify-content: space-between;
+  /* background-color: red; */
+  margin-right: 35px;
+  /* padding: 50px; */
 }
 
 .name {
@@ -39,6 +46,12 @@ header .nav {
 .links span{
   border-bottom: 3px solid var(--teal);
   margin: 5px;
+}
+
+.main{
+  /* display: flex; */
+  margin-left: 20vw;
+  /* background-color: green; */
 }
 
 section{
